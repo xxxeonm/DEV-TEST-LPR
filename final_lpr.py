@@ -77,7 +77,7 @@ def recogLp(filename):
     org_img = cv2.warpPerspective(org_img, cv2.getPerspectiveTransform(p1, p2), (img_w, img_h))
     
     # resize lp by offset <<OVERFITTED
-    org_img=org_img[rec_box[select][1]:rec_box[select][3]+rec_box[select][1]+50,rec_box[select][0]-250:rec_box[select][0]+250] 
+    org_img=org_img[rec_box[select][1]:rec_box[select][3]+rec_box[select][1]+50,rec_box[select][0]-225:rec_box[select][0]+180] 
     rslt_detect = cv2.resize(org_img, None,fx=1.8,fy=1.8,interpolation=cv2.INTER_CUBIC+cv2.INTER_LINEAR)
     cv2.imshow('resize', rslt_detect)
     cv2.waitKey(0)
