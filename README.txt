@@ -18,7 +18,7 @@ lp_detection.py
 3) 필터적용: morph_close, threshold
 
 - recognition
-1) kor_lp_gen.trainneddata: 
+1) kor_lp_gen.traineddata: 
     - 도로명주소에 사용되는 `한길체`&`한길체장체` bold, regular, italic 사용
     - jTessBoxEditor로 생성
 2) 한글+숫자만 필터링
