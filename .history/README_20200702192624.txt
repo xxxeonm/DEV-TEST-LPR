@@ -1,4 +1,0 @@
-lp_detection.py
-
-line22)) if area >= 80000 and area <= 100000
-: 전체 번호판 영역 추출
